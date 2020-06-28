@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expanding button</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
+  </head>
+<body>
+<!----------------- Empieza el header ----------------->
+<div class="header-video">
+  <video loop autoplay preload="auto" muted>
+  <source src="/Multimedia/background_video.mp4" type="video/mp4">
+   <!-- mensaje de error -->
+    El navegador no soporta video mp4  
+  </video>
+</div>
+
+<header class="header content">
+  <div class="header-content">
+    <h1>My Logistic Web</h1>
+  </div>
+</header> 
+
+<!----------------- Empieza las secciones ----------------->
+<section class="content">
+  <div class="total-wrap one">
+       <div class="btn-wrap">
+        <i class="fas fa-truck"></i>
+           <span>TERRESTRE</span>
+       </div>
+       <div class="cont-wrap">
+           <h3>SERVICIOS TERRESTRES</h3>
+       </div>
+       <div class="dd-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit adipisci eos quidem reiciendis odio, doloribus a, labore, recusandae vero est sint temporibus perferendis quaerat. 
+          </p> 
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nisi ipsum eligendi quod commodi placeat ipsam veritatis sed culpa molestias, odio sint unde doloremque nihil. Nihil corporis officiis, quo doloremque repellendus voluptatum sapiente repellat asperiores accusamus amet nostrum eos placeat voluptatem beatae.
+          </p>
+          <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque minima eveniet sequi laudantium atque aperiam quos harum veritatis est, quasi porro dolorem nisi asperiores dolores fuga commodi veniam!
+          </p>
+       </div>
+    </div>  
+  <div class="total-wrap two">
+      <div class="btn-wrap">
+        <i class="fas fa-ship"></i>
+          <span>MARITIMO</span>
+      </div>
+      <div class="cont-wrap">
+          <h3>SERVICIOS MARITIMOS</h3>
+      </div>
+      <div class="dd-content">
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit adipisci eos quidem reiciendis odio, doloribus a, labore, recusandae vero est sint temporibus perferendis quaerat. 
+         </p> 
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nisi ipsum eligendi quod commodi placeat ipsam veritatis sed culpa molestias, odio sint unde doloremque nihil. Nihil corporis officiis, quo doloremque repellendus voluptatum sapiente repellat asperiores accusamus amet nostrum eos placeat voluptatem beatae.
+         </p>
+         <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque minima eveniet sequi laudantium atque aperiam quos harum veritatis est, quasi porro dolorem nisi asperiores dolores fuga commodi veniam!
+         </p>
+      </div>
+   </div>  
+   <div class="total-wrap three">
+    <div class="btn-wrap">
+      <i class="fas fa-plane"></i>
+        <span>AEREO</span>
+    </div>
+    <div class="cont-wrap">
+        <h3>SERVICIOS AEREOS</h3>
+    </div>
+    <div class="dd-content">
+       <p>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit adipisci eos quidem reiciendis odio, doloribus a, labore, recusandae vero est sint temporibus perferendis quaerat. 
+       </p> 
+       <p>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique nisi ipsum eligendi quod commodi placeat ipsam veritatis sed culpa molestias, odio sint unde doloremque nihil. Nihil corporis officiis, quo doloremque repellendus voluptatum sapiente repellat asperiores accusamus amet nostrum eos placeat voluptatem beatae.
+       </p>
+       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque minima eveniet sequi laudantium atque aperiam quos harum veritatis est, quasi porro dolorem nisi asperiores dolores fuga commodi veniam!
+       </p>
+    </div>
+ </div>  
+</secction>
+
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js">
+</script>
+<script>
+        $('.total-wrap .btn-wrap').click(function(){
+            $(this).parent().toggleClass('open');
+        });
+</script>
+    
+</body>
+</html>
